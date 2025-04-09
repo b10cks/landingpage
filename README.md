@@ -2,8 +2,6 @@
 
 A modern, responsive landing page for b10cks CMS - a revolutionary block-based headless CMS.
 
-![b10cks Logo](assets/b10cks-logo.svg)
-
 ## 🚀 Features
 
 - **Modern Design**: Built with Nuxt 3 and Tailwind CSS
