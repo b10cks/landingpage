@@ -149,7 +149,7 @@ useSeoMeta({
             <h3 class="mb-3 text-xl font-bold text-primary">{{ feature.header }}</h3>
             <p class="text-base grow">{{ feature.body }}</p>
             <div class="text-[10px] font-mono text-muted-foreground text-left mt-4">REF: {{ feature.ref
-            }}</div>
+              }}</div>
           </div>
         </div>
       </div>
@@ -162,7 +162,7 @@ useSeoMeta({
           <div>FEATURES DETAIL</div>
         </div>
         <h2 class="mb-12 text-center text-3xl font-bold tracking-tight md:text-4xl text-primary">{{ content.about.title
-        }}</h2>
+          }}</h2>
 
         <OverdrawnBorder class="mx-auto max-w-3xl bg-card p-8 grid gap-6">
           <h3 class="text-2xl font-bold text-primary">{{ content.about.header }}</h3>
@@ -272,7 +272,7 @@ useSeoMeta({
         <div class="flex flex-col text-center md:text-left justify-between items-center gap-6 md:flex-row">
           <div class="text-[10px] font-mono text-muted-foreground">
             <div>LANDING PAGE: B10CKS-2025-001</div>
-            <div>SCALE: 1:100 | UNITS: PIXELS | DATE: 2025-04-10</div>
+            <div>GRID: 8x8 | UNITS: PIXELS | DATE: 2025-04-10</div>
           </div>
           <OverdrawnBorder class="p-4 flex gap-1" label="THEME">
             <div class="h-4 w-4 border" />
