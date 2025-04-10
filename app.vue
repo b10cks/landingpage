@@ -96,7 +96,8 @@ useSeoMeta({
         </div>
         <div class="mx-auto flex justify-center">
           <OverdrawnBorder class="p-4" label="LOGO:LG">
-            <img src="~/assets/b10cks-logo.svg" alt="b10cks Logo" width="80" height="80" class="h-20 w-20" />
+            <img src="~/assets/b10cks-logo.svg" alt="b10cks Logo" title="b10cks" width="80" height="80"
+              class="h-20 w-20" />
           </OverdrawnBorder>
         </div>
 
@@ -195,7 +196,7 @@ useSeoMeta({
           <h2 class="mb-4 text-center text-3xl font-bold tracking-tight md:text-4xl text-primary">
             {{ content.waitlist.header }}
           </h2>
-          <p class="mb-10 text-center text-lg text-muted-foreground">
+          <p class="mb-10 text-center text-lg">
             {{ content.waitlist.body }}
           </p>
           <div class="grid gap-6">
@@ -248,7 +249,8 @@ useSeoMeta({
         <div class="flex flex-col items-center justify-between gap-8 md:gap-4 md:flex-row">
           <div class="flex items-center gap-2 relative">
             <OverdrawnBorder label="LOGO:SM" class="p-4">
-              <img src="~/assets/b10cks-logo.svg" alt="b10cks Logo" width="24" height="24" class="h-6 w-6" />
+              <img src="~/assets/b10cks-logo.svg" alt="b10cks Logo" title="b10cks" width="24" height="24"
+                class="h-6 w-6" />
             </OverdrawnBorder>
           </div>
           <OverdrawnBorder class="p-4" label="COPYRIGHT NOTICE">
@@ -270,7 +272,7 @@ useSeoMeta({
         <div class="flex flex-col text-center md:text-left justify-between items-center gap-6 md:flex-row">
           <div class="text-[10px] font-mono text-muted-foreground">
             <div>LANDING PAGE: B10CKS-2025-001</div>
-            <div>SCALE: 1:100 | UNITS: PIXELS | DATE: 2005-04-10</div>
+            <div>SCALE: 1:100 | UNITS: PIXELS | DATE: 2025-04-10</div>
           </div>
           <OverdrawnBorder class="p-4 flex gap-1" label="THEME">
             <div class="h-4 w-4 border" />
