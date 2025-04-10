@@ -120,7 +120,7 @@ useSeoMeta({
     </section>
 
     <section id="features" class="relative z-10 bg-black border-y">
-      <div class="absolute container mx-auto px-20 inset-0">
+      <div class="absolute container mx-auto px-4 md:px-20 inset-0">
         <div class="h-full w-full grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div class="border-x"></div>
           <div class="border-x"></div>
@@ -148,7 +148,7 @@ useSeoMeta({
             <h3 class="mb-3 text-xl font-bold text-primary">{{ feature.header }}</h3>
             <p class="text-base grow">{{ feature.body }}</p>
             <div class="text-[10px] font-mono text-muted-foreground text-left mt-4">REF: {{ feature.ref
-              }}</div>
+            }}</div>
           </div>
         </div>
       </div>
@@ -161,7 +161,7 @@ useSeoMeta({
           <div>FEATURES DETAIL</div>
         </div>
         <h2 class="mb-12 text-center text-3xl font-bold tracking-tight md:text-4xl text-primary">{{ content.about.title
-          }}</h2>
+        }}</h2>
 
         <OverdrawnBorder class="mx-auto max-w-3xl bg-card p-8 grid gap-6">
           <h3 class="text-2xl font-bold text-primary">{{ content.about.header }}</h3>
