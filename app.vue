@@ -56,15 +56,33 @@ const content = {
     ]
   },
   about: {
-    title: "Our Philosophy",
+    title: "Core Principles",
     header: "Modern Content Management Should Be",
     items: [
-      "Accessible: Every feature should be available to everyone, regardless of budget or scale, eliminating arbitrary paywalls.",
-      "Modular: Following atomic design principles with blocks that can be nested and combined to create sophisticated content structures.",
-      "User-Focused: Built with user's in mind, with Git-like versioning and a block architecture that feels natural and powerful.",
-      "Transparent: Pricing should be straightforward and based only on what you actually use - storage and traffic - not which features you need.",
-      "Uncompromising: Enterprise-grade capabilities like localization and CDN delivery should be standard, not premium add-ons.",
-      "Open: 100% open source with zero vendor lock-in, giving you complete control over your content ecosystem."
+      {
+        "highlight": "Accessible for everyone, regardless of budget",
+        "text": "b10cks eliminates arbitrary paywalls so all features are available to all users. Great content management shouldn't be limited by pricing tiers."
+      },
+      {
+        "highlight": "Modular by design",
+        "text": "b10cks follows atomic principles with blocks that nest and combine seamlessly. Create sophisticated content structures that adapt to your unique vision and requirements."
+      },
+      {
+        "highlight": "User-focused from the ground up",
+        "text": "b10cks features Git-like versioning and a block architecture that feels both natural and powerful. Complex tasks become intuitive through thoughtful design."
+      },
+      {
+        "highlight": "Transparent in its pricing",
+        "text": "b10cks charges only for what you actually use—storage and traffic—never for features. No surprise fees or hidden costs to worry about."
+      },
+      {
+        "highlight": "Uncompromising on capabilities",
+        "text": "b10cks makes enterprise-grade features like localization and CDN delivery standard for everyone. Premium functionality shouldn't come with premium pricing."
+      },
+      {
+        "highlight": "Open source and future-proof",
+        "text": "b10cks is 100% open with zero vendor lock-in. Maintain complete control over your content ecosystem while benefiting from continuous improvements."
+      }
     ]
   },
   waitlist: {
@@ -169,9 +187,9 @@ useSeoMeta({
           <ul class="grid gap-6">
             <li v-for="(line, i) in content.about.items" class="flex gap-3">
               <Check class="w-4 h-4 shrink-0 mt-1" />
-              <span>
-                {{ line }}
-              </span>
+              <div>
+                <b class="text-primary">{{ line.highlight }}</b>, <span>{{ line.text }}</span>
+              </div>
             </li>
           </ul>
           <div class="text-[10px] font-mono text-muted-foreground text-left">SCALE: 1:1<br>MATERIAL: EXPERIENCE</div>
