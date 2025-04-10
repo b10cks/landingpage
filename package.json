@@ -17,6 +17,7 @@
     "lucide-vue": "^0.487.0",
     "lucide-vue-next": "^0.487.0",
     "nuxt": "^3.16.2",
+    "posthog-js": "^1.235.1",
     "reka-ui": "^2.2.0",
     "shadcn-nuxt": "2.0.1",
     "tailwind-merge": "^3.2.0",
